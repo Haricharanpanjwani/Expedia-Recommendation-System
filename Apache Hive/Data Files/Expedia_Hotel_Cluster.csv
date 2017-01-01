@@ -1,0 +1,301 @@
+Cluster,Hotel_Name,City,prop_id,prop_starrating
+0,Hilton Midtown,Newyork,12938,3
+0,Marriott Marquis,Newyork,7771,3
+0,Club Quarters Hotel,Newyork,6399,3
+1,Grand Hyatt ,Newyork,25579,3
+1,Waldorf Astoria ,Newyork,26540,3
+1,The Roosevelt Hotel,Newyork,37331,3
+2,Park Central Hotel,Newyork,91899,3
+2,Edison Hotel,Newyork,30434,4
+2,Hudson Hotel,Newyork,7374,4
+3,InterContinental Barclay Hotel,Newyork,27090,4
+3,Sheraton  Hotel,Newyork,131173,4
+3,Pod 39,Newyork,3105,3
+4,Crowne Plaza ,Barcelona,78858,4
+4,Autohogar Hotel,Barcelona,103600,2
+4,Best Western Hotel,Barcelona,17817,2
+5,Hotel Vinci Maritimo,Barcelona,139893,2
+5,Hotel Fountains,Barcelona,85742,3
+5,Waytostay,Barcelona,118104,3
+6,Parc,Barcelona,19731,3
+6,Hotel Francia,Barcelona,116416,4
+6,Centro Penitenciari La Model,Barcelona,27317,2
+7,Family Complex Comfort,Barcelona,130729,4
+7,Hotel Tourister,Barcelona,52838,4
+7,Piccadily,Barcelona,40629,3
+8,Apartmentos SATA,Barcelona,104087,4
+8,Radisson Blu,Barcelona,121071,4
+8,Clayton Hotel,Barcelona,48090,3
+9,Hotel Gotham,Barcelona,56417,4
+9,Townhouse Hotel,Barcelona,119952,4
+9,Hotel Innside,Barcelona,4610,4
+10,Macdonald Hotel,Barcelona,117667,4
+10,Hesperia Tower,Barcelona,12248,5
+10,Capthorne Hotel,Barcelona,57724,4
+11,Abode,Barcelona,70568,5
+11,Village Hotel,Barcelona,103937,5
+11,Hatters Hotel,Barcelona,55688,5
+12,Hotel Sunrise,Barcelona,35245,4
+12,Nadler Hotel,Barcelona,39341,4
+12,Villa Victoria,Barcelona,44497,5
+13,Hotel Indigo,Barcelona,72684,5
+13,Hard Days Night Hotels,Barcelona,5541,5
+13,Royal Hotels,Barcelona,117177,5
+14,Aloft Hotel,Barcelona,9253,5
+14,The Liner,Barcelona,88345,5
+14,Hampton Hotel,Barcelona,24996,5
+15,Mandarin Oriental,Buenos Aires,36029,5
+15,Hotel Paradise,Buenos Aires,136038,2
+15,Candlewood Suites,Buenos Aires,115560,2
+16,Copperleaf Hotel,Buenos Aires,19884,2
+16,AmericInn Hotel and Suites,Buenos Aires,62724,0
+16,Dweik Hotel,Buenos Aires,50393,3
+17,Jordan Flower Hotel,Buenos Aires,33705,4
+17,Nairoukh Hotel,Buenos Aires,137113,0
+17,Amer hotel,Buenos Aires,116388,4
+18,Hotel Pearl,Buenos Aires,115895,4
+18,View Point,Buenos Aires,11004,3
+18,Campanile Hotel,Buenos Aires,82098,4
+19,Lord Nelson,Buenos Aires,119482,3
+19,Malmaison Hotel,Buenos Aires,129218,4
+19,Titanic Hotel,Buenos Aires,25791,4
+20,Dolby Hotel,Buenos Aires,3483,4
+20,HeyWood House Hotel,Buenos Aires,89319,3
+20,Jurys Inn,Buenos Aires,52357,3
+21,Kos,Amsterdam,104475,3
+21,Meininge,Amsterdam,74339,2
+21,Holiday Inn Sloterdik,Amsterdam,115796,3
+22,Fasion Hotel,Amsterdam,74516,2
+22,HEM Hotel,Amsterdam,65758,3
+22,Leasowe,Amsterdam,135857,3
+23,Bastion Hotel,Amsterdam,81854,2
+23,Tulip Inn ,Amsterdam,31233,3
+23,Arts Hotel,Amsterdam,83625,3
+24,Cosy Canal Apartaments,Amsterdam,117171,3
+24,Hotel/ Bar Sebastian's,Amsterdam,99723,4
+24,Adelphi,Amsterdam,78979,3
+25,Mate hotel,Amsterdam,75071,4
+25,RHO Hotel,Amsterdam,131773,3
+25,Hotel Union,Amsterdam,11768,3
+26,Hotel Rainbow,Amsterdam,42414,3
+26,Executive Lounge - Hotel Okura,Amsterdam,25298,3
+26,Bicyclehotel Van Ostade,Amsterdam,95962,3
+27,Shi Hotel,Amsterdam,43044,4
+27,Hermitage Hotel,Amsterdam,122201,4
+27,Hotel Flipper,Amsterdam,3197,3
+28,Hotel Victorieplein,Amsterdam,100023,4
+28,City Center Hotel,Amsterdam,106793,4
+28,RaadGuys Hotel,Amsterdam,122720,4
+29,Vrock Hotel,Amsterdam,129658,4
+29,RoofTop Hotel,Amsterdam,47877,4
+29,Double Tree,Amsterdam,34820,4
+30,Cleythil hotel,Amsterdam,1704,4
+30,Shiphotel gandalf,Amsterdam,60833,5
+30,Captain's place,Amsterdam,9122,5
+31,Het Zomerhuis,Rome,88914,4
+31,Best Western Hotel President ,Rome,15334,0
+31,Hotel Astrid,Rome,52323,2
+32,San Giorgio,Rome,59351,2
+32,Aurelia,Rome,78247,0
+32,Dina Roma,Rome,66605,2
+33,Happy Goose,Rome,121571,2
+33,Prime Hotel,Rome,19880,3
+33,LoversDen,Rome,35203,2
+34,Hotel Waldorf ,Rome,113549,2
+34,Satellite Palace Hotel,Rome,1066,4
+34,Castle Hotel,Rome,78545,3
+35,Hotel Anagnina,Rome,111107,3
+35,Congress Hotel,Rome,21556,3
+35,Hotel Villa Rosa,Rome,97184,4
+36,Hotel Cinecitt,Rome,104142,3
+36,Surf Studio Beach Hotel ,Rome,48443,3
+36,Nettuno Hotel Cala Gonone,Rome,121628,3
+37,Hotel St John ,Rome,133311,4
+37,Hotel Purist,Rome,126066,4
+37,San Peter Hotel,Rome,120617,4
+38,Novotel,Rome,94984,4
+38,Flamboyant Hotel,Rome,126403,5
+38,Star Hotel,Rome,127229,4
+39,Armstrong Hotel,Tuscany,84276,4
+39,Albergo Il Porticciolo,Tuscany,37850,3
+39,Hotel Arenella,Tuscany,124679,3
+40,Hotel Monticello,Tuscany,33286,3
+40,Hotel Villa Rita,Tuscany,59561,2
+40,Hotel Aurora,Tuscany,126406,3
+41,Hotel Belvedere,Tuscany,44985,3
+41,Perseo,Tuscany,94220,3
+41,Hotel Sardi,Tuscany,63146,3
+42,Hotel VirtualWorld,Tuscany,140747,3
+42,Pleasant Hotel,Tuscany,90815,3
+42,Hotel Da Giacomino,Tuscany,21100,4
+43,Hotel Montemerlo,Tuscany,71075,3
+43,Hotel Anna,Tuscany,86598,3
+43,Hotel Barsalini,Tuscany,110798,4
+44,Locanda Dell,Tuscany,34719,4
+44,Hotel La perla del Golfo,Tuscany,22916,4
+44,Residence Villa Cecilia,Tuscany,39217,4
+45,Hotel Park Napoleone,Tuscany,120494,4
+45,Lacona Residence,Tuscany,13797,3
+45,Residence San Giovanni,Tuscany,536,5
+46,Hotel Acquamarina,Tuscany,113992,3
+46,Scenic Beauty Hotel,Tuscany,110984,5
+46,Hotel Sas Capo Sud,Tuscany,117672,5
+47,Village Farm Hotel,Tuscany,87571,5
+47,Hotel Villa Ottone,Tuscany,137501,0
+47,Dodge Hotel,Tuscany,11487,4
+48,Sun And Sands Hotel,Dubai,43752,0
+48,Qamardeen Hotel,Dubai,21349,0
+48,Villa Artemis Hotel,Dubai,119651,0
+49,Athena Hotel,Dubai,42707,0
+49,Nafsika Hotel,Dubai,18886,2
+49, Sofia Hotel,Dubai,109166,3
+50, Venus Hotel,Dubai,87500,2
+50,Seven Sands Hotel ,Dubai,72867,2
+50,Dunes Hotel ,Dubai,32027,3
+51,Emerald Hotel ,Paris,135550,2
+51,Best Western Premier Hotel ,Paris,92100,4
+51,Hotel Epic,Paris,93035,4
+52,InterContinental,Paris,58600,4
+52,Hotel Cervantes,Paris,130646,4
+52,Hotel Mercure,Paris,22312,4
+53,Quality hotel,Paris,34026,4
+53,Hotel De Belfort,Paris,40209,4
+53,Timhotel,Paris,59854,4
+54,Holiday Inn,Paris,9027,4
+54,Chateau De Courtalain,Paris,13158,4
+54,Comfort Hotel,Paris,19675,4
+55,Ibis Styles,Paris,118564,4
+55,Hotel Nature,Paris,134406,5
+55,Orleans Hotel,Paris,56431,4
+56,Little House Hotel,Paris,100304,5
+56,Hotel Louvre-Rivoli,Paris,96284,4
+56,Ibis Hotel,Paris,30299,2
+57,Novotel,London,70066,2
+57,Travel Inn,London,12481,2
+57,Hotel Vision,London,27281,2
+58,Travelling Heights,London,80964,0
+58,Mandarin Oriental,London,50355,2
+58,Norfolk Plaza Hotel,London,22150,3
+59,The Blakemore Hotel,London,128496,0
+59,Kensington Rooms,London,4099,2
+59,The Bingham Hotel,London,5604,0
+60,Marble Arch Inn,London,133869,2
+60,Vito's,London,54602,0
+60,Hotel Decent,London,62143,3
+61,Hotel Forever,London,97501,0
+61,The Rockwell,London,42951,3
+61,RiverSide ,London,115332,3
+62,NewTown Hotel,London,132271,4
+62,Hotel Welcome,London,108507,0
+62,Hotel Meets,London,63045,2
+63,Popular Hotel,Berlin,135393,2
+63,Motel Avus,Berlin,119207,3
+63,Hotel Astoria,Berlin,127297,3
+64,Hotel Wittelsbach,Berlin,28427,2
+64,Hotel Greifswald,Berlin,139976,3
+64,Hotel Christophorus-Haus,Berlin,123051,3
+65,Hotel Heaven ,Berlin,75125,3
+65,Hotel SkyView,Berlin,131363,3
+65,Lux Eleven,Berlin,86606,3
+66,NH Hotel,Berlin,88226,3
+66,Vacation Hotel,Berlin,65704,3
+66,Winters Hotel,Berlin,6656,3
+67,Hotel Casa,Berlin,122749,4
+67,Adagio City Aparthotel,Berlin,59565,3
+67,Mariott Hotel,Berlin,15634,3
+68,Hotel Jurine,Berlin,111775,3
+68,Western Leonardo Hotel,Berlin,52622,3
+68,East-Side Hotel,Berlin,52135,3
+69,Goethe,Berlin,76770,3
+69,Ecostic Hotel,Berlin,121238,4
+69,Hotel Domus,Berlin,34066,4
+70,Adina Hotel,Berlin,11521,3
+70,Celebration Hotel,Berlin,67308,3
+70,Hotel Karlshorst,Berlin,120824,3
+71,Quality Hotel ,Berlin,35158,3
+71,Carat Hotel,Berlin,126465,4
+71,BlueHouse Hotel,Berlin,121362,3
+72,Hotel Fortuna,Berlin,35114,3
+72,Feature Hotel,Berlin,22431,3
+72,Aparotel Hotel,Berlin,101743,3
+73,Hotel Ambience,Berlin,109793,3
+73,Hotel LongIsland,Berlin,113106,3
+73,The Douglas Hotel,Berlin,11622,2
+74,The Northern Hotel,Berlin,11826,3
+74,Micasa ApartHotel,Berlin,39993,5
+74,The Mariner Hotel,Berlin,64344,1
+75,Park Inn Hotel Aberdeen,Berlin,83045,2
+75,Doubletree by Hilton,Berlin,129278,3
+75,Skene House,Berlin,10759,3
+76,Ocean Frontier,Newyork,22135,3
+76,Saywa Hotel,Newyork,104251,4
+76,Hotel Oasia,Newyork,63511,4
+77,Hotel Royal,Newyork,6492,1
+77,Radisson SAS Scandinavia Hotel Arhus,Newyork,8946,1
+77,Helnan Marselis Hotel,Newyork,9952,3
+78,Trefeddian Hotel,Newyork,19470,3
+78,Aberdovey Hillside Village,Newyork,24526,3
+78,Aberfeldy Cottages,Newyork,26421,3
+79,Aberfeldy Caravan Park,Newyork,27675,5
+79,Coshieville House,Newyork,28364,1
+79,Black Mountain Lodge,Newyork,7814,2
+80,Holiday Inn Express,Newyork,10881,5
+80,Harry's Hotel & Bistro,Newyork,12510,5
+80,Llwynygog Guest House,Newyork,17122,1
+81,The Glengower Hotel,Barcelona,18012,2
+81,Marine Hotel,Barcelona,84441,2
+81,Nanteos Mansion Country House Hotel,Barcelona,2196,3
+82,Comfort Inn,Barcelona,3309,2
+82,Comfort Suites (North),Barcelona,21770,3
+82,Comfort Suites (South),Barcelona,23984,3
+83,Courtyard by Marriot,Barcelona,43549,3
+83,Hampton Inn,Barcelona,104381,3
+83,Hampton Inn & Suites,Barcelona,6225,5
+84,Hilton Garden Inn,Barcelona,19748,1
+84,Holiday Inn Express (North),Barcelona,20383,1
+84,Holiday Inn Express (South),Barcelona,21183,2
+85,LaQuinta Inn & Suites,Berlin,24015,1
+85,MCM Elegante Suites,Berlin,40534,5
+85,Residence Inn by Marriot,Berlin,12255,5
+86,Crown & Thistle Hotel,Berlin,20707,3
+86,Four Pillars Hotel,Berlin,63731,3
+86,Remont Boutique B&B Hotel in Oxford,Berlin,65623,3
+87,Home Inn,Berlin,83281,2
+87,Marbella Hotel Convention and Spa,Berlin,118859,2
+87,Padma Anyer Private Villa,Berlin,120046,2
+88,Aomori Grand Hotel,Berlin,11244,4
+88,Hotel Sunroute Aomori,Berlin,11726,4
+88,Hotel Crown Palais,Berlin,13996,2
+89,Central Hotel Aomori,Berlin,16096,4
+89,Super Hotel Aomori,Berlin,17853,2
+89,Apple Palace,Berlin,18016,3
+90,Aonang Terrace Hotel,Berlin,19598,5
+90,Beach Terrace Hotel,Berlin,22984,5
+90,Bryant House Bed & Breakfast,Berlin,23150,1
+91,The Consulate,Amsterdam,26804,4
+91,Coombs House Inn,Amsterdam,50188,4
+91,Gibson Inn,Amsterdam,67406,2
+92,House of Tartts,Amsterdam,3858,3
+92,Witherspoon Inn,Amsterdam,7523,4
+92,Hotel de Cantharel,Amsterdam,7880,2
+93,Holiday Inn Express,Amsterdam,79026,1
+93,Candlewood Suites,Amsterdam,13155,1
+93,Same Sun Hostel,Amsterdam,13878,1
+94,Apex Mountain Inn,Amsterdam,15884,5
+94,Hotel Elisa,Amsterdam,18569,3
+94,Hennies Motel,Amsterdam,40463,4
+95,Samoan Outrigger Hotel,Amsterdam,41585,3
+95,Apia Central Hotel,Amsterdam,68689,5
+95,Eden's Edge,Amsterdam,12321,5
+96,Princess Tui Inn,Amsterdam,18083,2
+96,Le Alaimoana Hotel,Amsterdam,18516,3
+96,Leric Housing Motel,Amsterdam,23462,3
+97,Lynn's Getaway,Amsterdam,6214,1
+97,Aggie Grey's Hotel and Bungalows,Amsterdam,18970,1
+97,Hotel Elisa,Amsterdam,47087,4
+98,Hotel Millenia Samoa,Amsterdam,4426,2
+98,Hotel Tanoa Tusitala,Amsterdam,12202,2
+98,Cambria Suites Appleton Hotel,Amsterdam,34682,3
+99,Comfort Suites Appleton Hotel,Amsterdam,42260,3
+99,Days Inn Appleton Hotel,Amsterdam,68411,3
+99,Microtel Inn,Amsterdam,1795,5

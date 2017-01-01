@@ -1,0 +1,53 @@
+. create database expedia;
+2. show databases;
+3. use expedia;
+4.
+create table expedia_rankings_competitive_low (srch_id bigint, date_time string, site_id int, visitor_location_country_id int, visitor_hist_starrating float, visitor_hist_adr_usd float, prop_country_id int, prop_id int, prop_starrating int, prop_review_score float, prop_brand_bool int, prop_location_sscore1 float, prop_location_score2 float, prop_log_historical_price float, position int, price_usd float, promotion_flag int, gross_booking_usd float, src_destination_id int, srch_length_of_stay int, srch_booking_window int, srch_adults_count int, srch_room_count int, srch_saturday_night int, srch_query_affinity_score float, orig_destination_distance float, random_bool int, comp1_rate int, comp1_inv int, comp1_rate_percent_diff float, comp2_rate int, comp2_inv int, comp2_rate_percent_diff float,comp3_rate int, comp3_inv int, comp3_rate_percent_diff float, comp4_rate int, comp4_inv int, comp4_rate_percent_diff float, comp5_rate int, comp5_inv int, comp5_rate_percent_diff float, comp6_rate int, comp6_inv int, comp6_rate_percent_diff float, comp7_rate int, comp7_inv int, comp7_rate_percent_diff float, comp8_rate int, comp8_inv int, comp8_rate_percent_diff float, click_bool int, gross_bookings float, booking_bool int) row format delimited fields terminated by ',' lines terminated by '\n';
+5. load data local inpath '/home/ubuntu/data/ranking/train.csv' overwrite into table expedia_rankings;
+6. select distinct prop_id from expedia_rankings;
+
+
+
+create table expedia_reco (date_time string, site_name int, posa_continent int, user_location_country int, user_location_region int, user_location_city int, orig_destination_distance float, user_id int, is_mobile int, is_package int, channel int, srch_ci string, srch_co string, srch_adults_cnt int, srch_children_cnt int, srch_rm_cnt int, srch_destination_id int, srch_destination_type_id int, is_booking int, cnt int, hotel_continent int, hotel_country int, hotel_market int, hotel_cluster int) row format delimited fields terminated by ',' lines terminated by '\n';
+
+load data local inpath '/home/ubuntu/data/recommendation/train.csv' overwrite into table expedia_reco;
+
+insert into 
+
+--marketing channels
+
+select channel, count(channel) from expedia_reco where is_booking = 1 group by channel
+select site_name,'\t', count(site_name) from expedia_reco group by site_name;
+
+insert overwrite table expedia_rankings_competitive_high select * from expedia_rankings where comp1_rate < price_usd or comp2_rate < price_usd or comp3_rate < price_usd or comp4_rate < price_usd or comp5_rate < price_usd or comp6_rate < price_usd or comp7_rate < price_usd or comp8_rate < price_usd 
+
+insert overwrite table expedia_rankings_competitive_low select * from expedia_rankings where comp1_rate < price_usd or comp2_rate < price_usd or comp3_rate < price_usd or comp4_rate < price_usd or comp5_rate < price_usd or comp6_rate < price_usd or comp7_rate < price_usd or comp8_rate < price_usd 
+
+a. create table expedia_hotel_review_temp (hotel_id int, review_score float) row format delimited fields terminated by ',' lines terminated by '\n';
+b. load data local inpath '/home/ubuntu/Expedia_2013_Search/Hotel_Review_Score.csv' overwrite into table expedia_hotel_review;
+
+c. create table expedia_hotel_review(hotel_id int, review_score float) clustered by (hotel_id) into 3 buckets stored as orc TBLPROPERTIES ('transactional'='true') ;
+
+expedia_hotel_cluster change:
+
+create table expedia_hotel_search (id int, srch_id int, hotel_name string, city string, hotel_address string, date_time string, site_id int, visitor_location_country_id int, visitor_hist_starrating int, visitor_hist_adr_usd int, prop_country_id int, prop_id int, prop_starrating int, prop_review_score float, prop_brand_bool int, prop_location_score1 float, prop_location_score2 float, prop_log_historical_price float, price_usd float, promotion_flag int, srch_destination_id  int, srch_length_stay int, srch_booking_window int, srch_adults_count int, srch_children_count int, srch_room_count int, srch_saturday_night_bool int, srch_query_affinity_score float, orig_destination_distance float, random_bool int, comp1_rate float, comp1_inv float, comp1_rate_percent_diff float, comp2_rate float, comp2_inv float, comp2_rate_percent_diff float, comp3_rate float, comp3_inv float, comp3_rate_percent_diff float, comp4_rate float, comp4_inv float, comp4_rate_percent_diff float, comp5_rate float, comp5_inv float, comp5_rate_percent_diff float, comp6_rate float, comp6_inv float, comp6_rate_percent_diff float, comp7_rate float, comp7_inv float, comp7_rate_percent_diff float, comp8_rate float, comp8_inv float, comp8_rate_percent_diff float, prop_location_score_aggregate float, prop_historical_price float, prop_delta_price float, price_order int, target_date string, target_month string, target_month_num int) row format delimited fields terminated by ',' lines terminated by '\n';
+
+load data local inpath '/home/ubuntu/Expedia_2013_Search/Expedia_Hotel_Search.csv' overwrite into table expedia_hotel_search;
+
+create table expedia_hotel_review (hotel_id int, review_score float) row format delimited fields terminated by ',' lines terminated by '\n';
+
+load data local inpath '/home/ubuntu/Expedia_2013_Search/Hotel_Review_Score.csv' overwrite into table expedia_hotel_review;
+
+create table expedia_hotel_cluster (clusterID int, hotel_name string, city string, prop_id int, prop_starrating float) row format delimited fields terminated by ',' lines terminated by '\n';
+
+load data local inpath '/home/ubuntu/Expedia_2013_Search/Hotel_Cluster_Mapping.csv' overwrite into table expedia_hotel_cluster;
+
+create table hotel_review_kafka (hotel_id int, review_score float, message string) row format delimited fields terminated by ',' lines terminated by '\n';
+
+--connect to hive from localhost
+ssh -o ServerAliveInterval=10 -i ec2_bigdata.pem -N -L 10000:localhost:10000 ubuntu@ec2-54-197-10-58.compute-1.amazonaws.com
+
+# start the hive
+bin/hive --service metastore
+bin/hive --service hiveserver2
+bin/beeline -u jdbc:hive2://localhost:10000/default -n hiveuser -p hiveuser
